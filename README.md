@@ -54,4 +54,14 @@ String formatarCep (long cep)
 
 Você pode averiguar no arquivo "Metodos.java".
 
+### Organizando arquivos
+A organização de arquivos é realizada através de packages. É uma forma de criarmos uma estrutura de subdiretórios, sendo assim, teremos uma melhor estruturação dos arquivos.
+Ex:
+com.hypertech.notification.app
+com.hypertech.notification.model
+com.hypertech.notification.util
+com.hypertech.notification.service
+
+
+edu.blimblim.aulaum
 
