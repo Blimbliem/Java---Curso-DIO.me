@@ -25,3 +25,33 @@ Ex: arquivo CalculadoraCientifica.java
     final String BR = "Brasil";
 
 No arquivo "Convencoes.java" contem exemplos das convenções que devem e não devem ser seguidas.
+
+
+### Declaração de variaveis
+Estrutura:
+
+Tipo NomeBemDefinido = Atribuiçãoo (opcional em alguns casos)
+
+Exemplo:
+
+int idade = 23;
+double altura = 1.80;
+Dog spike;
+
+Voce pode averiguar no arquivo "Variaveis.java".
+
+
+### Declaração de métodos
+Estrutura:
+
+TipoDeRetorno NomeObjetivoNoInfinitivo Parametro(s)
+
+Exemplo:
+
+int somar (int numeroUm, int numero2)
+
+String formatarCep (long cep)
+
+Você pode averiguar no arquivo "Metodos.java".
+
+
