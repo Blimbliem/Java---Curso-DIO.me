@@ -1,18 +1,31 @@
-## Getting Started
+## Aula 2 - Tipos e Variaveis
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Tipos primitivos: São tipos de dados que não são considerados, e representam valores brutos. Eles são armazenados diretamente na pilha da memória.
 
-## Folder Structure
+Tipos inteiros:
+byte, short, int, long;
 
-The workspace contains two folders by default, where:
+Tipos fracionarios:
+float, double;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Conhecendo esses tipos, fica a pergunta: Qual tipo de dados deveria ser utilizado para determinar a idade de uma pessoa ou o salario de um funcionario?
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Declaração de variáveis:
+A variável é uma identificação de um espaço em memória utilizado pelo nosso programa. 
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Toda vaariavei é composta por: 
+tipo de dados + identificação + valor atribuído;
 
-## Dependency Management
+<Tipo> <nomeVariavel> <atribuicaoDeValorOpcional>
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+int idade;
+int idade = 22;
+
+- Casting: É o processo de converter um tipo de dado em outro. O exemplo no arquivo "TiposVariaveis.java" é o seu uso em tipos primitivos.
+
+- Constantes: Para declarar uma variável como constante, utilizamos a palvra "final", mas por convenção, esta variável deverá ser escrita toda em caixa alta.
+
+Ex: final double NUMERO_PI = 3.14
+O exemplo pode ser encontrado no mesmo arquivo dito acima.
+
+
