@@ -13,6 +13,7 @@ public class OperadoresAritmetico {
     String nomeCompleto = "Gabriel" + "Blimbliem";
     System.out.println(nomeCompleto);
     
+    //debugar a partir daqui, para ver o comportamento da atribuição entre textos e numerais;
     String concatenacao = "?";
 
     concatenacao = 1+1+1+"1";
