@@ -25,3 +25,10 @@ calcularImprimir(){} // O que ele faz Imprimi ou Calcula? Seguindo as boas prát
 - Quais parâmetros serão necessários para execução do método?
 - O método possui o risco de apresentar alguma execeção? 
 - Qual a visibilidade do método?
+
+### Exercicio - Televisão
+- Criar um exemplo de classe para representar uma TV, onde:
+1- Tenha características: Ligada (boolean), canal (int) e volume (int)
+2- TV poderá ligar e desligar e assim mudar o estado ligada(ou seja, só podera realizar as outras ações se o ligado for true);
+3- TV aumentará e diminuirá o volume sempre +1 ou -1;
+4- TV poderá mudar de canal de 1 em 1 ou definindo o número correspondente.
