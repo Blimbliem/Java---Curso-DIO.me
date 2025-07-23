@@ -1,18 +1,27 @@
-## Getting Started
+## Métodos
+- Todas as ações das aplicações são consideradas métodos.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+- Os métodos, por sua vez, correspondem a funções ou sub-rotinas disponiveis dentro de nossas classes.
 
-## Folder Structure
+### Critérios de nomeação de métodos
+São convenções que facilitam a vida de programadores ao trabalharem em códigos de forma colaborativa.
 
-The workspace contains two folders by default, where:
+- Deve ser momeado como verbo, normalmente, no infinitivo;
+- Seguir o padrão camelCase;
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+Ex:
+somar(int n1, int n2){}
+abrirConexao(){}
+findById(int id){}
+calcularImprimir(){} // O que ele faz Imprimi ou Calcula? Seguindo as boas práticas, esse método só deveria ter uma unica ação.
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+- Não existe no Java, o conceito de métodos globais. Isso significa que todos os métodos devem sempre ser definidos dentro de uma classe.
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+### Critérios para definição de métodos:
+- 1 Qual a proposta principal do método? Você deve se perguntar constantemente até compreender a real finalidade do mesmo.
+- 2 Qual o tipo de retorno esperado após executar o método? Você deve analisar se o método será responsável por retornar algum valor ou não.
+- Caso o método não retorne nenhum valor, ele será representado pela key-word "void".
 
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+- Quais parâmetros serão necessários para execução do método?
+- O método possui o risco de apresentar alguma execeção? 
+- Qual a visibilidade do método?
