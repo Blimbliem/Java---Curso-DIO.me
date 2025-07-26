@@ -6,6 +6,7 @@ public class Conta {
         // variavel local de método
         double novoSaldo = saldo - valor;
     }
+        //"novo saldo" e "valor" só estarão disponíveis dentro do método acima
 
     public void imprimirSaldo(){
         //disponível em toda classe
